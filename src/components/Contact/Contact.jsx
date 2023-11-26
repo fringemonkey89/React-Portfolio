@@ -1,5 +1,8 @@
 import React from 'react'
 import './Contact.css'
+// import { MdOutlineEmail } from 'react-icon/md' 
+// import { RiMessengerLine } from 'react-icon/ri' 
+// import { BsWhatsapp } from 'react-icon/bs' 
 import { useRef } from 'react'
 import { useState } from 'react'
 import validator from 'validator'
@@ -36,16 +39,19 @@ const Contact = () => {
         <div className='contact_container'>
             <div className='contact_options'>
                 <article className='contact_option'>
+                    
                     <h4>Email</h4>
                     <h5>markomajeticjr@gmail.com</h5>
                     <a>Send a Message</a>
                 </article>
                 <article className='contact_option'>
+                    
                     <h4>Messenger</h4>
                     <h5>Marko Majetic jr</h5>
                     <a>Send a Message</a>
                 </article>
                 <article className='contact_option'>
+                    
                     <h4>WhatsApp</h4>
                     <h5>416-795-6902</h5>
                     <a>Send a Message</a>

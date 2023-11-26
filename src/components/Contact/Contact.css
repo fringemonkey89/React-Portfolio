@@ -19,6 +19,11 @@
     transition: var(--transition)
 }
 
+.contact_option_icon {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
 .contact_option a {
     margin-top: 1rem;
     display: inline-block;

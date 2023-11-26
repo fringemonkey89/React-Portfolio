@@ -15,3 +15,14 @@ footer {
     display: inline-block;
     color: aliceblue;
 }
+
+.footer_socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer_copyright {
+    margin-bottom: 10rem;
+}
