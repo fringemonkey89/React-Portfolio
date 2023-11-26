@@ -1,5 +1,8 @@
 import React from 'react'
 import './Footer.css'
+import { FaLinkedin } from "react-icons/fa"
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -15,9 +18,9 @@ const Footer = () => {
             </ul>
 
             <div className='footer_social'>
-                <a>Github</a>
-                <a>LinkedIn</a>
-                <a>Twitter</a>
+                <a><FaGithub />Github</a>
+                <a><FaLinkedin />LinkedIn</a>
+                <a><FaSquareXTwitter />Twitter</a>
             </div>
 
             <div className='footer_copyright'>

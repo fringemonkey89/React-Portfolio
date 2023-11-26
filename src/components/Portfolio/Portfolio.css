@@ -21,3 +21,14 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+.portfolio_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+img{
+    object-fit: contain;
+}

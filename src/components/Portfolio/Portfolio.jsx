@@ -1,40 +1,52 @@
 import React from 'react'
 import './Portfolio.css'
+import Img1 from '../../assets/weather-report.png'
+import Img2 from '../../assets/critter.png'
+import Img3 from '../../assets/cineSearch.png'
+import Img4 from '../../assets/quiz.png'
+import Img5 from '../../assets/password.png'
+import Img6 from '../../assets/note.png'
 
 const data =[
     {
         id:1,
-        title: 'project1',
+        title: 'Weather App',
+        image: Img1,
         description: 'this is a sample description of my project',
         //github: 'examplegit'
     }, 
     {
         id:2,
-        title: 'project2',
+        title: 'Critter Sitter',
+        image: Img2,
         description: 'this is a sample description of my project',
        // github: 'examplegit'
     },
     {
         id:3,
-        title: 'project3',
+        title: 'Cine Search',
+        image: Img3,
         description: 'this is a sample description of my project',
        // github: 'examplegit'
     },
     {
         id:4,
         title: 'project4',
+        image: Img4,
         description: 'this is a sample description of my project',
         //github: 'examplegit'
     },
     {
         id:5,
         title: 'project5',
+        image: Img5,
         description: 'this is a sample description of my project',
         //github: 'examplegit'
     },
     {
         id:6,
         title: 'project6',
+        image: Img6,
         description: 'this is a sample description of my project',
        // github: 'examplegit'
     }
@@ -47,11 +59,11 @@ const Portfolio = () => {
 
             <div className='portfolio_container'>
                 {
-                    data.map(({ id, title, description, github}) => {
+                    data.map(({ id, title, description, image, github}) => {
                         return(
                             <article key={id} className='portfolio_item'>
                                 <div className='portfolio_img'>
-                                <img></img>
+                                <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
                                 <h4>{description}</h4>
