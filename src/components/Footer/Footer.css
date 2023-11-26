@@ -4,6 +4,7 @@ footer {
     text-align: center;
     font-size: 1rem;
     margin-top: 5.5rem;
+    color: aliceblue;
 }
 
 .permlinks{
@@ -12,4 +13,5 @@ footer {
     justify-content: center;
     gap: 2rem;
     display: inline-block;
+    color: aliceblue;
 }
