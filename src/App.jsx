@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact'
 import Portfolio from './components/Portfolio/Portfolio'
+import Header from './components/Header/Header'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    <Header />
       <Nav />
       <About />
       

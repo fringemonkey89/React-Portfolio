@@ -1,0 +1,30 @@
+header {
+    height: 90vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    font-size: 25px;
+}
+
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.header_social {
+    display: flex;
+    display: column;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    font-size: 3rem;
+    left: 10px;
+    bottom: 4rem;
+}
