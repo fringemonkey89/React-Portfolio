@@ -1,0 +1,42 @@
+.contact_container{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+.contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_option {
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    text-align: center;
+    border: 1 px solid transparent;
+    transition: var(--transition)
+}
+
+.contact_option a {
+    margin-top: 1rem;
+    display: inline-block;
+    font: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
