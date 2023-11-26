@@ -1,0 +1,15 @@
+footer {
+    background:  var(--color-primary);
+    padding: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5.5rem;
+}
+
+.permlinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    display: inline-block;
+}

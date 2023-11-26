@@ -20,3 +20,7 @@ nav a {
     color: var(--color-light);
     font-size: .60rem;
 }
+
+footer a {
+    color: var(--color-bg);
+}

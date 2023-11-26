@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './components/About/About'
 import Nav from './components/Nav/Nav'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Nav />
       <About />
+      <Footer />
     </>
   )
 }
