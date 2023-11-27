@@ -2,22 +2,19 @@ import React from 'react'
 import './Header.css'
 import Resume from './Resume'
 import HeaderSocial from './HeaderSocial'
-import Me from '../../assets/Placeholder_Person.jpg'
 
 const Header = () => {
     return (
         <header>
             <div className='header_container'>
-                <h5>I'm</h5>
-                <h1>Marko Majetic</h1>
-                <h5 className='text-light'>Full Stack Developer</h5>
-                <Resume />
-                <HeaderSocial />
-                <div className='me'>
-                    <img src={Me} alt='me'/>
+                <div className='profile'>
+                    Hi! My Name is Marko Majetic 
+                     I'm a Fullstack Developer 
                 </div>
-
-                <a>Scroll down!</a>
+                <HeaderSocial />
+                <Resume />
+                
+                
             </div>
         </header>
     )

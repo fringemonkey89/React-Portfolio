@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-bottom: 3rem;
 }
 
 .about_image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    height: 100%;
 }
 
 .about_me{
