@@ -7,7 +7,6 @@ import { FaGithub } from "react-icons/fa6";
 const Footer = () => {
     return (
         <footer>
-            <a>Marko Majetic</a>
 
             <ul className='permlinks'>
                 <li><a href='#'>Home</a></li>

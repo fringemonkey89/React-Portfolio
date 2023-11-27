@@ -10,10 +10,10 @@ import Img6 from '../../assets/note.png'
 const data =[
     {
         id:1,
-        title: 'Weather App',
+        title: 'Weather Report',
         image: Img1,
-        description: 'this is a sample description of my project',
-        //github: 'examplegit'
+        description: 'A web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users have looked up will be saved in their local storage.',
+       // github: 'https://fringemonkey89.github.io/weather-report/'
     }, 
     {
         id:2,
@@ -26,28 +26,28 @@ const data =[
         id:3,
         title: 'Cine Search',
         image: Img3,
-        description: 'this is a sample description of my project',
+        description: 'This is an app that enables users to search movies by title or filter out a list of movies based on preference, view trailers and description, and add movies to a bucket and queue list.',
        // github: 'examplegit'
     },
     {
         id:4,
-        title: 'project4',
+        title: 'Pop Quiz Hot-Shot',
         image: Img4,
-        description: 'this is a sample description of my project',
+        description: 'I have created a quiz testing your knowledge on web development using Javascript, HTML and CSS.',
         //github: 'examplegit'
     },
     {
         id:5,
-        title: 'project5',
+        title: 'Password Generator',
         image: Img5,
-        description: 'this is a sample description of my project',
+        description: ' I have created a function with javascript that would generate a password based on what criteria have been chosen through prompts.',
         //github: 'examplegit'
     },
     {
         id:6,
-        title: 'project6',
+        title: 'Note Taker Supreme',
         image: Img6,
-        description: 'this is a sample description of my project',
+        description: 'note-taker-supreme is an app that allows you to create notes on whatever you like, whether it be tasks, ideas, etc and also allows you to delete them as well',
        // github: 'examplegit'
     }
 ]
