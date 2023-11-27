@@ -19,11 +19,14 @@ header {
     font-size: 25px;
 }
 
-.cta{
-    margin-bottom: 0;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+.logo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 6.5rem;
 }
 
 .header_social {
