@@ -47,8 +47,3 @@ input, textarea {
     color: var(--color-white);
 }
 
-.btn-primary{
-    width: fit-content;
-    padding: 1.25rem;
-    border-radius: 7.5%;
-}
