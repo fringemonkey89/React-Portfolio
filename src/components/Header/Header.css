@@ -39,16 +39,3 @@ header {
     
 }
 
-
-
-
-.me {
-    width: 15rem;
-    height: 25rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10rem;
-    border-radius: 2rem 2rem 2 2;
-    overflow: hidden;
-}
