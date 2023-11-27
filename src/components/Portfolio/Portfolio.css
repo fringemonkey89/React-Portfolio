@@ -8,7 +8,7 @@
     background: var(--color-bg-variant);
     padding: 1rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid yellow;
     transition: var(--transition);
 }
 

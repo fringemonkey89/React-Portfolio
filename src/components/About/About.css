@@ -38,7 +38,7 @@
 }
 
 .about_card h5 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .about_card small {
@@ -47,4 +47,8 @@
 
 .about_content p {
     margin: 2rem 0 2.5rem;
+}
+
+h5 {
+    font-size: 3rem;
 }
