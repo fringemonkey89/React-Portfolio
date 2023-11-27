@@ -20,11 +20,37 @@ header {
 
 .header_social {
     display: flex;
-    display: column;
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
     position: absolute;
     font-size: 3rem;
     left: 10px;
     bottom: 4rem;
+    
+}
+
+.header_social::after {
+    content: '';
+    width: 2px;
+    height: 3rem;
+}
+
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.me {
+    width: 15rem;
+    height: 25rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10rem;
+    border-radius: 2rem 2rem 2 2;
+    overflow: hidden;
 }

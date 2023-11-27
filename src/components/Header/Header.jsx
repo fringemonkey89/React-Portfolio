@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import Resume from './Resume'
 import HeaderSocial from './HeaderSocial'
+import Me from '../../assets/Placeholder_Person.jpg'
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
                 <Resume />
                 <HeaderSocial />
                 <div className='me'>
-                    <img></img>
+                    <img src={Me} alt='me'/>
                 </div>
 
                 <a>Scroll down!</a>
