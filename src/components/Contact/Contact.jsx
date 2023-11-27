@@ -36,6 +36,7 @@ const Contact = () => {
         <section id='contact'>
             <h5>Get In Contact</h5>
             <h2>Send Me A Line</h2>
+    =
         <div className='contact_container'>
             <div className='contact_options'>
                 <article className='contact_option'>
@@ -57,7 +58,7 @@ const Contact = () => {
                     <a>Send a Message</a>
                 </article>
             </div>
-        </div>
+       
 
         <form ref={form} onSubmit={sendEmail}>
             <input type='text' name='name' placeholder='Full Name' require />
@@ -66,6 +67,7 @@ const Contact = () => {
             <textarea name='message' rows="7" placeholder='Your Message' required></textarea>
             <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
+        </div>   
         </section>
     )
 }
