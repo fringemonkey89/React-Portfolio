@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact'
 import Portfolio from './components/Portfolio/Portfolio'
 import Header from './components/Header/Header'
+import Experience from './components/Experience/Experience'
+
 import './App.css'
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <Header />
       <Nav />
       <About />
+      <Experience />
       <Portfolio />
       <Contact />
       <Footer />
