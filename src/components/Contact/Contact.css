@@ -68,3 +68,18 @@ input, textarea {
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_options {
+        width: 100%;
+    }
+
+    form {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
