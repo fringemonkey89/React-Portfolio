@@ -12,10 +12,8 @@
 }
 
 .contact_option {
-    background: var(--color-bg-variant);
-    padding: 1rem;
     text-align: center;
-    border: 1 px solid transparent;
+    border: 1px solid transparent;
     transition: var(--transition);
     
 }
@@ -30,7 +28,7 @@
 }
 
 .contact_option a {
-    margin-top: 1rem;
+    margin-top: .5rem;
     display: inline-block;
     font: 1rem;
 }
@@ -62,9 +60,11 @@ input, textarea {
 }
 
 #contact {
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .btn {
     width: 100%;
 }
+

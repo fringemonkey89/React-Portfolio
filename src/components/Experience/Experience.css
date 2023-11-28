@@ -1,12 +1,16 @@
 #experience {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    height: 500px;
 }
 
-h2{
+#exp{
     width: 100%;
+    font-size: 4rem;
+    padding-top: 2rem;
 }
 
 .experience_container {
@@ -36,6 +40,7 @@ h2{
 .experience_details {
     display: flex;
     gap: 1rem;
+    margin-top: 10px;
 }
 
 .details_icon {

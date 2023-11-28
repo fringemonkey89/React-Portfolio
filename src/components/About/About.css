@@ -3,6 +3,7 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
     margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .about_image {
@@ -38,7 +39,7 @@
 }
 
 .about_card h5 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .about_card small {
@@ -51,4 +52,8 @@
 
 h5 {
     font-size: 3rem;
+}
+
+.btn {
+    margin-top: 3.65rem;
 }
