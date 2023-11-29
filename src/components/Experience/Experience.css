@@ -53,6 +53,28 @@ div > h4 {
     margin-top: 6px;
     color: rgb(255, 123, 0);
 }
+
+.experience_details:hover h4 {
+    font-size: 1.75rem;
+  }
+
+  @keyframes flicker {
+    0% {
+      text-shadow: none;
+    }
+    50% {
+      text-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+
+  #exp {
+    animation: flicker 1s infinite;
+  }
+
+
 @media screen and (max-width: 600px) {
     .experience_container{
         gap: 1rem;

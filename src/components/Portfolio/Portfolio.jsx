@@ -55,7 +55,7 @@ const data =[
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h2 className='projectTitle'>Projects</h2>
+            <h2 id='projectTitle'>Projects</h2>
 
             <div className='portfolio_container'>
                 {
