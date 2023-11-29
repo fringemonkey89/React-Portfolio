@@ -55,15 +55,15 @@ const data =[
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h2>Projects</h2>
+            <h2 className='projectTitle'>Projects</h2>
 
             <div className='portfolio_container'>
                 {
                     data.map(({ id, title, description, image, github}) => {
                         return(
                             <article key={id} className='portfolio_item'>
-                                <div className='portfolio_img' >
-                                    <img src={image} alt={title} />
+                                <div className='portfolio_img'  >
+                                    <img id='port_img' src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
                                 <h4>{description}</h4>

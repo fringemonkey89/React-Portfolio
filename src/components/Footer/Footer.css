@@ -38,6 +38,10 @@ margin-bottom: 1.5rem;
     margin-bottom: 2.5rem;
 }
 
+.icon{
+    color: rgb(128, 43, 226); 
+}
+
 @media screen and (max-width: 600px) {
     .permalinks {
         flex-direction: column;
@@ -47,4 +51,11 @@ margin-bottom: 1.5rem;
     .footer_socials {
         margin-bottom: 2.6rem;
     }
+
+    .footer_social a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        
+        }
 }

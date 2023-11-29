@@ -10,16 +10,16 @@ const Footer = () => {
 
             <ul className='permlinks'>
                 <li><a href='#'>Home</a></li>
-                <li><a href='#about'>About</a></li>
+                <li><a href='#About'>About</a></li>
                 <li><a href='#experience'>Skills</a></li>
                 <li><a href='#portfolio'>Portfolio</a></li>
                 <li><a href='#contact'>Contact</a></li>
             </ul>
 
             <div className='footer_social'>
-                <a href='https://www.linkedin.com/in/marko-majetic-354232254/'><FaGithub />Github</a>
-                <a href='https://www.linkedin.com/in/marko-majetic-354232254/'><FaLinkedin />LinkedIn</a>
-                <a href='https://twitter.com/Esterosa1133'><FaSquareXTwitter />Twitter</a>
+                <a href='https://www.linkedin.com/in/marko-majetic-354232254/'><FaGithub  className='icon'/>Github</a>
+                <a href='https://www.linkedin.com/in/marko-majetic-354232254/'><FaLinkedin className='icon' />LinkedIn</a>
+                <a href='https://twitter.com/Esterosa1133'><FaSquareXTwitter className='icon' />Twitter</a>
             </div>
 
             <div className='footer_copyright'>

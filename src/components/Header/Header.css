@@ -21,8 +21,8 @@ header {
 }
 
 .logo {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     object-fit: contain;
     position: absolute;
     left: 50%;
@@ -45,7 +45,13 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 0rem;
-    margin-bottom: 4rem;
+    margin-bottom: -4rem;
+   
+    
+}
+
+ a {
+  color: aliceblue;
 }
 
 /*
@@ -66,23 +72,12 @@ header {
   }
   */
 
-  @keyframes glow {
-    0% {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
-    }
-    100% {
-      text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-    }
-  }
   
-  .header_social {
-    animation: glow 2.5s infinite;
-  }
 
   @media screen and (max-width: 600px) {
     .header_social {
       flex-direction: row;
-      margin-bottom: 1.5rem;
+      margin-bottom: -1rem;
       position: absolute;
       
     }
@@ -94,13 +89,19 @@ header {
 
 
     .logo {
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
       object-fit: contain;
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
       top: 45%;
   
+  }
+
+  .profile {
+    margin-top: 3.75rem;
+    font-size: 2.25rem;
+    word-wrap: break-word;
   }
 }

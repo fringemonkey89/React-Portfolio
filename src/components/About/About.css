@@ -10,20 +10,16 @@
     display: flex;
     flex-direction: row;
     gap: 15%;
-    margin-bottom: 3rem;
+    
     margin-top: 3rem;
 }
 
 .about_image {
-    border-radius: 2rem;
     overflow: hidden;
     height: 100%;
-    border-radius: none;
+    
 }
 
-#me_img{
-    border-radius: 0;
-}
 
 .about_me{
     width: 100%;
@@ -31,7 +27,7 @@
     border-radius: 2rem;
     display: grid;
     place-items: center;
-    border-radius: none;
+    
 }
 
 .about_cards{
@@ -51,12 +47,12 @@
 .about_icon {
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: whitesmoke;
+    color: rgb(0, 106, 255);
 }
 
 .about_card h5 {
     font-size: 2rem;
-    color: whitesmoke;
+    color: rgb(255, 196, 0)
 }
 
 .about_card small {
@@ -77,6 +73,11 @@ h5 , h2{
 .btn {
     margin-top: 3.65rem;
     color: whitesmoke;
+}
+
+#About {
+    margin-top: 3.50rem;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -103,7 +104,7 @@ h5 , h2{
             display: flex;
             flex-direction: column;
             gap: 15%;
-            margin-bottom: 3rem;
+            margin-bottom: 8rem;
             margin-top: 3rem;
         }
 
@@ -117,7 +118,7 @@ h5 , h2{
         }
 
         .about_card > h5 {
-            margin-top: 1rem    ;
+            margin-top: 1rem;
         }
 
         .about_card{
@@ -127,6 +128,11 @@ h5 , h2{
         .about_icon {
             font-size: 1rem;
             margin-bottom: .25rem;
-            color: whitesmoke;
+            
+        }
+
+        .about_card small {
+            font-size: 1.25rem;
+           
         }
 }

@@ -24,8 +24,14 @@
 }
 
 .contact_option > h4 {
-    color: blueviolet;
+    color: hotpink;
 }
+
+svg {
+    color: rgb(0, 140, 255);
+}
+
+
 
 .contact_option_icon {
     font-size: 1.5rem;
@@ -37,7 +43,7 @@
     margin-top: .5rem;
     display: inline-block;
     font: 1rem;
-    color: blueviolet;
+    color: aliceblue;
 }
 
 form{
@@ -56,7 +62,7 @@ input, textarea {
     background: transparent;
     border: 2px solid blueviolet;
     resize: none;
-    color: blueviolet;
+    color: hotpink;
 
    
 }

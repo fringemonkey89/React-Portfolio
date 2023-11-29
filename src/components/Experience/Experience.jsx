@@ -37,6 +37,18 @@ const Experience = () => {
                         <article className='experience_details'>
                         <BsPatchCheckFill className='details_icon' />
                         <div>
+                            <h4>Materialise</h4>
+                        </div>
+                        </article>
+                        <article className='experience_details'>
+                        <BsPatchCheckFill className='details_icon' />
+                        <div>
+                            <h4>SASS</h4>
+                        </div>
+                        </article>
+                        <article className='experience_details'>
+                        <BsPatchCheckFill className='details_icon' />
+                        <div>
                             <h4>React</h4>
                         </div>
                         </article>
@@ -68,6 +80,12 @@ const Experience = () => {
                     <article className='experience_details'>
                         <BsPatchCheckFill className='details_icon' />
                         <div>
+                            <h4> MySQL WorkBench </h4>
+                        </div>
+                    </article>
+                    <article className='experience_details'>
+                        <BsPatchCheckFill className='details_icon' />
+                        <div>
                             <h4> MYSQL </h4>
                         </div>
                     </article>
@@ -81,6 +99,12 @@ const Experience = () => {
                         <BsPatchCheckFill className='details_icon' />
                         <div>
                             <h4> Postman</h4>
+                        </div>
+                    </article>
+                    <article className='experience_details'>
+                        <BsPatchCheckFill className='details_icon' />
+                        <div>
+                            <h4> Insomnia </h4>
                         </div>
                     </article>
                 </div>
