@@ -106,4 +106,27 @@ h5 , h2{
             margin-bottom: 3rem;
             margin-top: 3rem;
         }
+
+        h5 {
+            margin-top: 2rem;
+        }
+
+        .about_cards {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about_card > h5 {
+            margin-top: 1rem    ;
+        }
+
+        .about_card{
+            padding-top: 1rem;
+        }
+
+        .about_icon {
+            font-size: 1rem;
+            margin-bottom: .25rem;
+            color: whitesmoke;
+        }
 }
