@@ -11,6 +11,11 @@
     width: 100%;
     font-size: 4rem;
     padding-top: 2rem;
+    color: rgb(0, 106, 255);
+}
+
+div > h4 {
+    color: rgb(0, 106, 255);
 }
 
 .experience_container {
@@ -29,6 +34,7 @@
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    color: rgb(0, 106, 255);
 }
 
 .experience_content {
@@ -45,6 +51,7 @@
 
 .details_icon {
     margin-top: 6px;
+    color: rgb(0, 106, 255);
 }
 
 @media screen and (max-width: 600px) {
