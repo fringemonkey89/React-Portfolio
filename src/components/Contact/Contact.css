@@ -20,17 +20,24 @@
 
 .contact_option > h5 {
     font-size: 2rem;
+    color: blueviolet;
+}
+
+.contact_option > h4 {
+    color: blueviolet;
 }
 
 .contact_option_icon {
     font-size: 1.5rem;
     margin-bottom: .5rem;
+    
 }
 
 .contact_option a {
     margin-top: .5rem;
     display: inline-block;
     font: 1rem;
+    color: blueviolet;
 }
 
 form{
@@ -47,9 +54,9 @@ input, textarea {
     padding: 1.5rem;
     border-radius: .5rem;
     background: transparent;
-    border: 2px solid yellow;
+    border: 2px solid blueviolet;
     resize: none;
-    color: var(--color-white);
+    color: blueviolet;
 
    
 }

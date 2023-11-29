@@ -8,12 +8,24 @@
     background: var(--color-bg-variant);
     padding: 1rem;
     border-radius: 2rem;
-    border: 1px solid yellow;
+    border: 1px solid rgb(255, 196, 0);
     transition: var(--transition);
 }
 
+.portfolio_item > h4 {
+    color: rgb(255, 196, 0);
+}
+
+
+.portfolio_item > a {
+    margin-top: 1rem;
+    color: rgb(255, 123, 0);
+    font-size: 1.5rem;
+}
+
 .portfolio_item h3 {
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 1rem;
+    color: rgb(255, 196, 0)
 }
 
 .portfolio_cta {
@@ -25,6 +37,7 @@
 #portfolio > h2 {
     font-size: 5rem;
     margin-bottom: 3rem;
+    color: rgb(255, 196, 0);
 }
 
 @media screen and (max-width: 600px) {

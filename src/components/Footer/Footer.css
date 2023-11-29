@@ -16,6 +16,8 @@ footer {
     gap: 2rem;
     color: aliceblue;
     margin-bottom: 3.5rem;
+    color: rgb(128, 43, 226);
+    font-size: 2rem;
 }
 
 .footer_socials {
@@ -29,6 +31,7 @@ footer {
 margin-left: 2rem;
 margin-right: 2rem;
 margin-bottom: 1.5rem;
+
 }
 
 .footer_copyright {
