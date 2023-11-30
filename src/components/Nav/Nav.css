@@ -1,6 +1,6 @@
 nav {
     width: max-content;
-    background: rgba(0, 0, 0, 0.3);
+    background: hotpink;
     z-index: 2;
     transform: translateX(-50%);
     display: block;
@@ -10,6 +10,7 @@ nav {
     display: flex;
     gap: .8rem;
     border-radius: 3em;
+    padding: 1rem;
 }
 
 nav a {
@@ -17,10 +18,10 @@ nav a {
     padding: .2rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: aliceblue;
     font-size: .60rem;
 }
 
 footer a {
-    color: var(--color-bg);
+    color: aliceblue;
 }

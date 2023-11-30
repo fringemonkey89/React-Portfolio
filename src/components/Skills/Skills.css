@@ -1,4 +1,4 @@
-#experience {
+#skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ div > h4 {
         width: 100%;
     }
 
-    #experience {
+    #skills {
         margin-bottom: 18rem;
     }
 }
