@@ -9,6 +9,9 @@ in building single-page applications and assess whether their skills align with 
 This application can be accessed via its deployed site link.
 
 ## Screenshot
-
+<p>This is my portfolio website on a desktop screen</p> 
+<img src ="desktop.png" width="650"  height="450">
+ <p>This is my portfolio website on a mobile device screen</p>
+<img src ="mobile.png" width="350"  height="650">
 ## License
 This project is licensed under the terms of the MIT license
