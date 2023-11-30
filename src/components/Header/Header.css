@@ -5,7 +5,7 @@ header {
 }
 .profile {
     width: 50%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,13 +21,13 @@ header {
 }
 
 .logo {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     object-fit: contain;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 30%;
+    top: 25%;
 
 }
 
@@ -52,6 +52,14 @@ header {
 
  a {
   color: aliceblue;
+}
+
+.resumeBox {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 20%;
+  left: 50%;
+
 }
 
 /*
@@ -95,7 +103,7 @@ header {
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
-      top: 45%;
+      top: 35%;
   
   }
 
@@ -103,5 +111,13 @@ header {
     margin-top: 3.75rem;
     font-size: 2.25rem;
     word-wrap: break-word;
+  }
+
+  .resumeBox {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 9%;
+    left: 50%;
+  
   }
 }

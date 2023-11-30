@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import HeaderSocial from './HeaderSocial'
 import Logo  from '../../assets/logo.png'
+import Resume from './Resume'
 const Header = () => {
     return (
         <header>
@@ -14,8 +15,9 @@ const Header = () => {
                 <div className='logo'>
                     <img src={Logo} />
                 </div>
-                <HeaderSocial />
-               
+                
+                <HeaderSocial className='header_social'/>
+                <Resume  className='pdf'/>
                 
             </div>
         </header>
