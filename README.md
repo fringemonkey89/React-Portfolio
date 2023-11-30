@@ -7,7 +7,7 @@ in building single-page applications and assess whether their skills align with 
 
 ## Installation
 This application can be accessed via its deployed site link.
-
+<a href='https://lucent-churros-865ead.netlify.app'> Link to deployed </a>
 ## Screenshot
 <p>This is my portfolio website on a desktop screen</p> 
 <img src ="desktop.png" width="650"  height="450">
